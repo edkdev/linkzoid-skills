@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "linkzoid",
+  "version": "1.0.0",
+  "description": "Find and place internal links on your websites through the hosted LinkZoid MCP server, with the linkzoid workflow skill bundled.",
+  "author": {
+    "name": "LinkZoid",
+    "email": "Edmond@linkzoid.xyz",
+    "url": "https://linkzoid.xyz"
+  },
+  "homepage": "https://linkzoid.xyz",
+  "repository": "https://github.com/edkdev/linkzoid-hermes",
+  "license": "MIT",
+  "keywords": [
+    "linkzoid",
+    "seo",
+    "internal-linking",
+    "orphan-pages",
+    "broken-links",
+    "content",
+    "mcp"
+  ]
+}
