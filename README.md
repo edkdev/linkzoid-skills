@@ -1,5 +1,9 @@
 # LinkZoid plugin for Hermes Agent
 
+[![skills.sh](https://skills.sh/b/edkdev/linkzoid-skills)](https://skills.sh/edkdev/linkzoid-skills)
+
+![LinkZoid: every page linked to the pages that matter](assets/banner.png)
+
 Audit and fix your website's internal linking from inside Hermes Agent. Ask which pages are orphaned, where your broken links are, or what each blog post should link to. Then approve the links you want, and they go live on your site without editing a single page.
 
 LinkZoid crawls your site from its sitemap, groups pages into topics, and uses AI to find the pages that should link to each other, with the exact words to link from. Approved links are placed by one small LinkZoid script tag on your site, so it works on WordPress, Webflow, Shopify, Squarespace or any site where you can add a script.
@@ -77,6 +81,12 @@ Deleting sites, changing the plan and team management are only available in the 
 ## Other clients
 
 The same server works in any MCP client: add `https://linkzoid.xyz/mcp` as a remote (Streamable HTTP) server with OAuth. Setup guide: https://linkzoid.xyz/mcp-server
+
+The skill alone installs into Claude Code, Cursor, Codex and other agents with the [skills CLI](https://skills.sh):
+
+```bash
+npx skills add edkdev/linkzoid-skills
+```
 
 ## Support
 
